@@ -1,0 +1,54 @@
+ header{
+    background-color:lightgreen;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    position: sticky;
+    top:10px;
+    z-index: 3;
+    width: 100px 100px;
+ }
+ 
+ div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 2;
+        border-style: 2px solid;
+       background-color:lightblue;
+       color: black;
+       border-width: 2px ;
+
+   padding-left: 10px ;
+   padding-right: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+
+}
+.navLinks{
+    display: flex;
+    list-style: none;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    border-style:solid ;
+    border-width: 2px;
+}
+.mamasection{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    position: relative;
+    left: 10px;
+}
+.container{
+    display: flex;
+
+}
+.mama{
+    border:2px solid;
+    position: relative;
+    top: 70px;
+    position: sticky;
+    height: fit-content;
+
+}
+

@@ -1,0 +1,12 @@
+.navbar{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.navLinks{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-grow: 1;
+}

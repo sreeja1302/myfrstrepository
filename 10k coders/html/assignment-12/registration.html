@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>registration form</title>
+        <head>
+        <style>
+            body{
+                border-width: 400px;
+                border-style: solid ;
+                border-color: antiquewhite;
+                background-color:aqua;
+            }
+            label[for]{
+                color: red;
+            }
+            label{
+                color: red;
+            }
+            #label{
+                border-width: 10px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1> students registration form</h1>
+        <form action="registration success.html">
+        <lable for="fname">firstname:</lable>
+        <input id="fname" name="firstname" type="text" patter="[a-z] {10}"placeholder="enter the name"/>
+        <br></br>
+        <label for="fname">Lastname:</label>
+        <input for="fname" name="lastname" type="text" patter="[a-z] {10}"placeholder="enter the name"/>
+        <br></br>
+        <lable>email address:</lable>
+        <input id="email" name="email address" type="email"placeholder="enter the email"/>
+        <br></br>
+        <label for="mobile number">mobile number:</label>
+        <input id="mobile number" type="text" pattern="[0-9]{10}"placeholder="enter the number"/>
+        <br></br>
+        <lable>Date of Birth:</lable>
+        <input id="dob" type="date"/>
+        <br></br>
+        <lable for="Gender">Gender</lable>
+        <br></br>
+        <label>male</label>
+        <input id="male" name="gender" type="radio"/>
+        <label>Female</label>
+        <input id="female" name="gender" type="radio"/>
+        <br></br>
+        <label for="address">address:</label>
+        <input id="address" type="text"/>
+        <br></br>
+        <label for="city">city:</label>
+        <input id="city" type="text"pattern="[a-z]{30}"placeholder="enter the city"/>
+        <label for="mandal">mandal:</label>
+        <input id="mandal" type="text"pattern="[a-z]{30}"placeholder="enter the mandal"/>
+        <br></br>
+        <label for="district">district:</label>
+        <input id="district"type="text"pattern="[a-z]{30}"placeholder="enter the district"/>
+        <label for="pincode">pincode:</label>
+        <input id="pincode"type="text"pattern="[0-9]{6}"placeholder="enter the pincode"/>
+        <br></br>
+        <label>state:</label>
+        <select id="coutry">
+            <option value="telangana">telangana</option>
+            <option value="andhrapradesh">andhrapradesh</option>
+            <option value="tamilnadu">tamilnadu</option>
+            <option value="assam">assam</option>
+        </select>
+        <br></br>
+        <label>country:</label>
+        <select id="coutry">
+            <option value="india">india</option>
+            <option value="china">china</option>
+            <option value="america">america</option>
+            <option value="russia">russia</option>
+        </select>
+        <br></br>
+        <labelid>qualifications:</label>
+        <select id="qualifications">
+            <option value="b.tech">b.tech</option>
+            <option value="mba">mba</option>
+            <option value="pg">pg</option>
+            <option value="intermediate">intermediate</option>
+            <option value="10th">10th</option>
+        </select>
+        <br></br>
+        <label>Document file:</label>
+        <input type="file" id="document"/>
+        <br></br>
+        <label>Terms and Conditions:</label>
+        <br></br>
+        <input type="checkbox"id="i agree"name="i agree"/>
+        <label for= "i agree">i agree</label>
+        <br></br>
+        <input type="checkbox"id="i don't agree"name="i don't agree"/>
+        <label for= "i don't agree">i don't agree</label>
+        <br></br>
+        <input type="submit"/>
+
+    </body>
+</html>
